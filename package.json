@@ -1,0 +1,25 @@
+{
+  "name": "updated-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoyceWilliams510/updated-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoyceWilliams510/updated-portfolio/issues"
+  },
+  "homepage": "https://github.com/RoyceWilliams510/updated-portfolio#readme"
+}
