@@ -7,8 +7,12 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel = "stylsheet" href = "../../assets/style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     </head>
     <body>
+      <main>
         <div style="position: relative;" class="container">
         <div class="row">
          <div class="col s9">  <h3 style="font-weight: 900; color: black; font-size: 60px;"><a href="/" class="black-text">Royce Williams</a></h3></div>
@@ -27,6 +31,8 @@
 
         {{{body}}}
 
+
+
         <footer class="page-footer" id = "footer-container">
           <div class="container">
             <div class="row">
@@ -35,13 +41,26 @@
               </div>
             </div>
           </div>
-          <div class="footer-copyright">
+          <div class="footer-copyright" id = "footer-div">
             <div class="container">
             © 2020 
             </div>
           </div>
         </footer>
+      </main>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+      <script>
+        $(document).ready(function(){
+          $('.carousel').carousel();
+          M.AutoInit();
+        });
+        $(".web-link").on("click",function(event){
+          event.stopPropagation();
+        })
+      </script>
 
     </body>
 
+  
 </html>
